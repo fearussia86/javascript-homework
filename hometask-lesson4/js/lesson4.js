@@ -80,14 +80,12 @@ zamena(prompt("Введите текст основной строки"), prompt
 
 let expression = prompt("Введите Ваше выражение");
 
-let splitexpression = expression.split('');
+let splitexpression = expression.split(''); //"sasa" => ["s", "90", "s", "a"]
 
 console.log(splitexpression);
 
 let arrayFilter = splitexpression.filter(function (elem, index, arr) {
-return elem !== isNan;
-
-
+    return !isNaN(elem);
 });
 
 console.log(arrayFilter);
