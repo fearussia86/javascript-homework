@@ -1,44 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>События формы комментарии</title>
+    <title>События формы</title>
     <link rel="stylesheet" href="css/form-events.css">
 </head>
 <body>
 
-
-
-
-
-<h2>ФОРМА КОММЕНТАРИЕВ</h2>
-
-
-<fieldset id="comFieldset">
-
-  <legend>Комментарий</legend>
-  <p><textarea rows="8" id="newComment" cols="80">
-  </textarea></p>
-
-
-  <input type="submit" value="ОТПРАВИТЬ" id="button" class="submit-button">
-
-</fieldset>
-
-
-
-
-
-
-<h2>ПОСМОТРИТЕ ПОСЛЕДНИЕ КОММЕНТАРИИ</h2>
-
-
-
-
-
-
-
-<!--
 <form name="lesson">
 
     <fieldset>
@@ -60,7 +28,7 @@
         <div>
             <p>Выбор цвета</p>
             <label><input checked value="lightblue" name="color" type="radio">Синий</label>
-            <label><input  value="yellow" name="color" type="radio">Желтый</label>
+            <label><input value="yellow" name="color" type="radio">Желтый</label>
         </div>
         <div>
             <p>Отметьте интересующие языки программирования</p>
@@ -70,8 +38,8 @@
             <label><input value="ruby" name="lang[]" type="checkbox">Ruby</label>
         </div>
         <div>
-            <label><input type="checkbox">Отметьте, если указать другую информацию?</label>
-            <input type="text" disabled>
+            <label><input type="checkbox" name="checkbox1">Отметьте, если указать другую информацию?</label>
+            <input type="text" disabled name="disabledOnOff">
         </div>
     </fieldset>
 
@@ -99,16 +67,8 @@
     <input type="reset" value="Очистить">
 </form>
 
-<br>
-<br>
 
--->
-
-
-
-
-
-<script src="js/getcomments.js"></script>
+<script src="js/hometask7-fieldset.js"></script>
 
 </body>
 </html>

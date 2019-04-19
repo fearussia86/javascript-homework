@@ -48,9 +48,11 @@ console.log(button);
 objForm.addEventListener('submit', commForm);
 
 
+
 function commForm(anyarray) {
-  anyarray.eventPreventDefault();
+anyarray.eventPreventDefault();
 let objForm = document.forms.comments;
+
 let author = objForm.elements.auth;
 let comment = objForm.elements.comm;
 console.log(comment);
