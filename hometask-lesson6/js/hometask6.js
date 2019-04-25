@@ -84,4 +84,10 @@ divTable.appendChild(table);
 
 ourTable(articles);
 
+
+
+
+
+
+
 } () );

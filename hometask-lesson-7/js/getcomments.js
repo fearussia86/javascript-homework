@@ -2,6 +2,7 @@
 
 
 let elem = document.getElementById("button");
+console.log(elem);
 elem.addEventListener("click", addComment);
 
 
@@ -13,7 +14,7 @@ function addComment() {
    console.log("Добавьте комментарий, поле пустое")
     return;
   }
- 
+
 
   let comment = document.createElement("p");
   comment.innerText = commentValue;
